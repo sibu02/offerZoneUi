@@ -1,7 +1,7 @@
 import { useState, useEffect, Fragment } from 'react';
 import Box from '@mui/material/Box';
 import { Stepper, Step, StepLabel, Button, Typography } from '@mui/material';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import DeliveryAddressForm from './DeliveryAddressForm';
 import OrderSummary from './OrderSummary';
 import { setCheckout, setDeliveryAddress } from '../../../State/Checkout/Action';
@@ -12,6 +12,7 @@ import { getUser } from '../../../State/Auth/Action';
 const steps = ['Address', 'Summary', 'Payment'];
 
 export default function Checkout() {
+    const param = useParams();
     const [activeStep, setActiveStep] = useState(0);
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);

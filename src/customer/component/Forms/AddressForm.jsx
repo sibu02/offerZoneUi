@@ -21,13 +21,12 @@ const AddressForm = ({step,setStep}) => {
             mobile: data.get("mobile")
         }
         dispatch(saveNewAddress(addressData));
-        dispatch(getUser());
         setTimeout(()=>{
             const newStep = step + 1;
-            setStep((prev)=>prev+1);
-            navigate({ search: `?step=${newStep}` });
-        },1000)
-        
+          setStep((prev)=>prev+1);
+          navigate({ search: `?step=${newStep}` });
+          },500)
+          dispatch(getUser());
     }
   return (
     <div>

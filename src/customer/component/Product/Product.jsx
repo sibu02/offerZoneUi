@@ -130,27 +130,30 @@ export default function Product() {
     }
     dispatch(findProducts(data))
     setIsLoading(productState.loading);
-  }, [param.levelThree, param.levelTwo, param.levelOne,, searchQuery])
+  }, [param.levelThree, param.levelTwo, param.levelOne,searchQuery])
 
   useEffect(() => {
-    let [minPrice, maxPrice] = price == null ? [0, 1000000] : price.split("-");
-    maxPrice = maxPrice || 1000000;
-    const data = {
-      categoryLevelThree: param.levelThree || '',
-      categoryLevelTwo: param.levelOne || '',
-      categoryLevelOne: param.levelTwo || '',
-      sizes: size || [],
-      minPrice: minPrice,
-      maxPrice: maxPrice,
-      minDiscount: discount || 0,
-      sort: sort || "price_low",
-      pageNo: page,
-      pageSize: 10,
-      stock: stock || '',
-      searchQuery: searchQuery || ''
-    }
-    dispatch(findProducts(data))
-    setIsLoading(false);
+    const debounceFetch = setTimeout(() => {
+      const [minPrice, maxPrice] = price == null ? [0, 1000000] : price.split("-");
+      const data = {
+        categoryLevelThree: param.levelThree || '',
+        categoryLevelTwo: param.levelTwo || '',
+        categoryLevelOne: param.levelOne || '',
+        sizes: size || [],
+        minPrice: minPrice,
+        maxPrice: maxPrice || 1000000,
+        minDiscount: discount || 0,
+        sort: sort || "price_low",
+        pageNo: page,
+        pageSize: 10,
+        stock: stock || '',
+        searchQuery: searchQuery || ''
+      };
+      dispatch(findProducts(data));
+      setIsLoading(false);
+    }, 300);
+  
+    return () => clearTimeout(debounceFetch);
   }, [size, stock, price, discount, page, sort])
 
   const clearAllFilter = () => {

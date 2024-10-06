@@ -27,7 +27,7 @@ const HomeSectionCardCarousel = ({ sectionName, data }) => {
 
   const responsive = {
     0: { items: 2 },
-    560: { items: 3 },
+    560: { items: 3.5 },
     800: { items: 4 },
     1024: { items: 4.5 },  // Increased visibility for larger screens
   };

@@ -90,7 +90,7 @@ const DeliveryAddressForm = ({ data, setStep , step }) => {
             <Typography variant="h6" className='mb-3'>
               Add New Address
             </Typography>
-            <AddressForm />
+            <AddressForm step={step} setStep={setStep} />
         </Grid>
       </Grid>
     </div>
