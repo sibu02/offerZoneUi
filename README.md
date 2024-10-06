@@ -1,7 +1,6 @@
 # OfferZone E-Commerce Application
-![](./public/projectDemo/s1.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](./public/projectDemo/s8.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](./public/projectDemo/s1.png) <br/>
+![](./public/projectDemo/s8.png)
 
 # Overview
 
