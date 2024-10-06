@@ -28,11 +28,13 @@ Security:
 
 # Key Features
 
+![](./public/projectDemo/s15.png)
+
 1. User Authentication
          Spring Security: Implemented JWT-based user authentication.
          Role-based Access: Differentiates between user and admin roles, ensuring secure access to the platform.
 
-         ![](./public/projectDemo/s15.png)
+         
 
 2. Product Pages with Advanced Filters
           Users can browse products with multi-criteria filters, including categories, size, price range, and brands.
