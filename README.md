@@ -1,6 +1,6 @@
 # OfferZone E-Commerce Application
-![](./public/projectDemo/s1.png) <br/>
-![](./public/projectDemo/s8.png)
+![](./public/projectDemo/s1.png) <br/> <br/> <br/>
+![](./public/projectDemo/s8.png) <br/> <br/> <br/>
 
 # Overview
 
@@ -28,48 +28,53 @@ Security:
 
 # Key Features
 
-![user aunthentication](./public/projectDemo/s15.png)
 
 1. User Authentication
          Spring Security: Implemented JWT-based user authentication.
          Role-based Access: Differentiates between user and admin roles, ensuring secure access to the platform.
 
+![user aunthentication](./public/projectDemo/s15.png)
          
-![](./public/projectDemo/s4.png)
-
-![](./public/projectDemo/s5.png)
-
-![](./public/projectDemo/s6.png)
 
 2. Product Pages with Advanced Filters
           Users can browse products with multi-criteria filters, including categories, size, price range, and brands.
           Dynamic Filtering: Supports multiple simultaneous filters for a refined user experience.
 
+![](./public/projectDemo/s4.png) <br/> <br/> <br/>
 
-                ![](./public/projectDemo/s4.png)
+![](./public/projectDemo/s5.png) <br/> <br/> <br/>
 
-                ![](./public/projectDemo/s5.png)
+![](./public/projectDemo/s6.png) <br/> <br/> <br/>
 
-                ![](./public/projectDemo/s6.png)
 
 3. Cart Functionality
           Users can add and remove items from the cart, adjust quantities, and proceed to checkout.
           State Management: Redux handles cart state management for a seamless user experience across components.
 
-           ![](./public/projectDemo/s2.png)
+![](./public/projectDemo/s2.png) <br/> <br/> <br/>
 
-           ![](./public/projectDemo/s3.png)
+![](./public/projectDemo/s3.png) <br/> <br/> <br/>
+
 
 4. Search Mechanism
           Implemented search functionality that dynamically retrieves products from the database based on user input.
+
+![](./public/projectDemo/s7.png)
+
 
 5. Order Tracking and Payment Gateway
           Users can track their orders and view past purchases.
           Integrated a payment gateway for secure transaction handling (mocked for demonstration purposes).
 
+![](./public/projectDemo/s9.png) <br/> <br/> <br/>
+![](./public/projectDemo/s10.png) <br/> <br/> <br/>
+![](./public/projectDemo/s11.png) <br/> <br/> <br/>
+
 6. Admin Panel
           Category Management: Admins can create, edit, and remove product categories.
           Order Management: Admins can view all orders and update order statuses dynamically from the admin dashboard.
+
+![](./public/projectDemo/s14.png) <br/> <br/> <br/>
 
 7. Responsive UI
           Built using Material UI and Tailwind CSS for a modern, responsive, and user-friendly interface.
