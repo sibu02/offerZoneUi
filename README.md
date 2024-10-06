@@ -1,5 +1,9 @@
 # OfferZone E-Commerce Application
-![](./public/projectDemo/s1.png)               ![](./public/projectDemo/s8.png)
+![](./public/projectDemo/s1.png) ;&nbsp;&nbsp;&nbsp;&nbsp;![](./public/projectDemo/s8.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ ![](./public/projectDemo/s8.png)
 
 # Overview
 
@@ -31,15 +35,26 @@ Security:
          Spring Security: Implemented JWT-based user authentication.
          Role-based Access: Differentiates between user and admin roles, ensuring secure access to the platform.
 
-        
+         ![](./public/projectDemo/s15.png)
 
 2. Product Pages with Advanced Filters
           Users can browse products with multi-criteria filters, including categories, size, price range, and brands.
           Dynamic Filtering: Supports multiple simultaneous filters for a refined user experience.
 
+
+                ![](./public/projectDemo/s4.png)
+
+                ![](./public/projectDemo/s5.png)
+
+                ![](./public/projectDemo/s6.png)
+
 3. Cart Functionality
           Users can add and remove items from the cart, adjust quantities, and proceed to checkout.
           State Management: Redux handles cart state management for a seamless user experience across components.
+
+           ![](./public/projectDemo/s2.png)
+
+           ![](./public/projectDemo/s3.png)
 
 4. Search Mechanism
           Implemented search functionality that dynamically retrieves products from the database based on user input.
