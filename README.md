@@ -1,5 +1,5 @@
 # OfferZone E-Commerce Application
-[](./public/projectDemo/s1.png) [](./public/projectDemo/s8.png)
+![](./public/projectDemo/s1.png) ![](./public/projectDemo/s8.png)
 
 # Overview
 
