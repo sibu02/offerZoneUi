@@ -1,11 +1,11 @@
-OfferZone E-Commerce Application
+# OfferZone E-Commerce Application
+[](./public/projectDemo/s1.png) [](./public/projectDemo/s8.png)
 
-
-Overview
+# Overview
 
 OfferZone is a full-stack e-commerce platform developed using Java, Spring Boot, MySQL, React, and Docker. The application includes robust features such as advanced product filtering, user authentication, order tracking, payment gateway integration, and an admin panel to manage categories and orders. Despite my attempts to deploy the Dockerized version, the large image size exceeded platform limitations, so I’m showcasing the project through GitHub.
 
-Tech Stack
+# Tech Stack
 
 Frontend: 
         React, Redux, Material UI, Tailwind CSS
@@ -25,11 +25,13 @@ Containerization:
 Security: 
         JWT-based authentication using Spring Security
 
-Key Features
+# Key Features
 
 1. User Authentication
          Spring Security: Implemented JWT-based user authentication.
          Role-based Access: Differentiates between user and admin roles, ensuring secure access to the platform.
+
+        
 
 2. Product Pages with Advanced Filters
           Users can browse products with multi-criteria filters, including categories, size, price range, and brands.
