@@ -16,6 +16,7 @@ import Profile from './customer/component/Profile/Profile';
 import ReviewPage from './customer/component/Order/ReviewPage';
 import Notifications from './customer/component/Utility/Notifications';
 import AdminPage from './Admin/Component/AdminPage';
+import PageNotFound from './customer/component/Utility/PageNotFound';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -84,6 +85,7 @@ function App() {
                 <ReviewPage />
               </ProtectedRoute>
             } />
+            <Route element={<PageNotFound/>}/>
           </Routes>
         </main>
         <Footer />
