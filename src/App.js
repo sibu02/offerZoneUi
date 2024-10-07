@@ -85,7 +85,7 @@ function App() {
                 <ReviewPage />
               </ProtectedRoute>
             } />
-            <Route element={<PageNotFound/>}/>
+            <Route path={"*"} element={<PageNotFound/>}/>
           </Routes>
         </main>
         <Footer />
